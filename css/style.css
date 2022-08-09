@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 @font-face {
     font-family: 'Montserrat';
     src:
@@ -16,4 +26,28 @@
         font-weight: 500;
         font-style: normal;
         font-display: swap;
+}
+
+.body {
+    min-width: 1200px;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: 0 auto;
 }
