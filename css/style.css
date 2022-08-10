@@ -315,3 +315,52 @@ html {
   color: var(--text-light);
   background-color: var(--bg-dark);
 }
+
+/* reviews */
+.reviews {
+
+  padding: 65px 0 61px;
+}
+
+.reviews__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.review {
+  align-items: center;
+}
+
+.review__btn {
+  transform: translateY(-12px);
+}
+
+.review__btn--left {
+  margin-right: 29px;
+}
+
+.review__descrs {
+  margin-right: 21px;
+  transform: translateY(-3px);
+}
+
+.review__descr {
+  margin-bottom: 30px;
+}
+
+.review__descr:last-of-type {
+  margin-bottom: 24px;
+}
+
+.review__imgs {
+  margin-right: 29px;
+}
+
+.review__img:not(:last-child) {
+  margin-bottom: 19px;
+}
+
+/* application */
+.application {
+ background-color: var(--bg-dark);
+}
