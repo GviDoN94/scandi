@@ -1,6 +1,7 @@
 :root {
   --bg: #EFE6E4;
   --bg-dark: #8D7370;
+  --bg-pink: #E2C4BA;
   --text: #533738;
   --text-light: #FFF;
   --link-btn: #CC8B86;
@@ -86,6 +87,7 @@ html {
     font-size: 40px;
     line-height: 50px;
     color: var(--text);
+    text-transform: uppercase;
 }
 
 .descr {
@@ -151,6 +153,7 @@ html {
     max-width: 534px;
     font-size: 50px;
     line-height: 62px;
+    text-transform: none;
 }
 
 .hero__descr {
@@ -177,7 +180,6 @@ html {
 .about-us__title {
   text-align: center;
   margin-bottom: 40px;
-  text-transform: uppercase;
 }
 
 .about-us__img {
@@ -219,13 +221,13 @@ html {
 
 /* our works */
 .our-works {
+  text-align: center;
   padding: 65px 0;
 }
 
 .out-works__title {
   text-align: left;
   margin-bottom: 40px;
-  text-transform: uppercase
 }
 
 .our-works__list {
@@ -259,6 +261,25 @@ html {
   background: url("../img/arrow.svg") no-repeat center;
 }
 
-.a {
+/* team */
+.team {
+  padding: 50px 0 35px;
+  background-color: var(--bg-pink);
+}
+
+.team__title {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.team__list {
+  justify-content: space-between;
+}
+
+.team__item {
+  width: calc((100% - 38px * 2) / 3);
+}
+
+.teem__photo {
+  margin-bottom: 6px;
 }
