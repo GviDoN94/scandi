@@ -1,5 +1,8 @@
 :root {
+  --bg: #EFE6E4;
+  --bg-dark: #8D7370;
   --text: #533738;
+  --text-light: #FFF;
   --link-btn: #CC8B86;
 }
 
@@ -36,6 +39,7 @@ html {
 .body {
     min-width: 1200px;
     font-family: 'Montserrat' , 'sans-serif';
+    background-color: var(--bg);
 }
 
 .visually-hidden {
@@ -67,9 +71,13 @@ html {
 }
 
 .container {
-    max-width: 1300px;
-    padding: 0 50px;
+    max-width: 1400px;
+    padding: 0 100px;
     margin: 0 auto;
+}
+
+.content-wrap {
+  padding: 0 182px;
 }
 
 .title {
@@ -111,11 +119,11 @@ html {
 }
 
 .nav {
-    margin-right: 35px;
+    margin-right: 39px;
 }
 
 .nav__item:not(:last-child) {
-    margin-right: 26px;
+    margin-right: 28px;
 }
 
 .nav__link {
@@ -134,33 +142,77 @@ html {
 
 /* hero */
 .hero {
-  padding: 55px 0;
+  padding: 56px 0;
   padding-bottom: 168px;
 }
 
-.hero__content {
-  padding: 0 85px;
-}
-
 .hero__title {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     max-width: 534px;
     font-size: 50px;
     line-height: 62px;
 }
 
 .hero__descr {
-  margin-bottom: 21px;
+  margin-bottom: 24px;
   max-width: 410px;
 }
 
 .hero__link {
     display: inline-block;
-    padding: 25px 66px;
+    padding: 25px 68px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: var(--text);
     text-decoration: none;
     background-color: var(--link-btn);
+}
+
+/* about us */
+.about-us__top {
+  padding: 65px 0 21px;
+}
+
+.about-us__title {
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.about-us__img {
+  margin-right: 63px;
+}
+
+.about-us__descr:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.about-us__bottom {
+  padding: 85px 0 81px;
+  background-color: var(--bg-dark);
+}
+
+.about-us__list {
+  justify-content: space-between;
+}
+
+.about-us__item {
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us__number {
+  margin-bottom: 8px;
+  font-size: 50px;
+  line-height: 62px;
+  color: var(--text-light);
+}
+
+.about-us__word {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: var(--text-light);
+  text-transform: uppercase;
 }
