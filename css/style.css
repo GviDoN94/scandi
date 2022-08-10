@@ -283,3 +283,35 @@ html {
 .teem__photo {
   margin-bottom: 6px;
 }
+
+/* how we work */
+.how-we-work {
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: var(--bg-pink);
+}
+
+.how-we-work__title {
+  margin-bottom: 40px;
+}
+
+.how-we-work__list{
+  justify-content: space-between;
+}
+
+.how-we-work__item {
+  width: calc((100% - 60px) / 4);
+}
+
+.how-we-work__number {
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 70px;
+  color: var(--text-light);
+  background-color: var(--bg-dark);
+}
