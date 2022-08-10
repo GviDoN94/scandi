@@ -216,3 +216,49 @@ html {
   color: var(--text-light);
   text-transform: uppercase;
 }
+
+/* our works */
+.our-works {
+  padding: 65px 0;
+}
+
+.out-works__title {
+  text-align: left;
+  margin-bottom: 40px;
+  text-transform: uppercase
+}
+
+.our-works__list {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.our-works__item:not(:nth-last-child(-n+2)) {
+  margin-bottom: 26px;
+}
+
+.our-works__link {
+  position: relative;
+  text-align: center;
+  padding-right: 70px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.our-works__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+  background: url("../img/arrow.svg") no-repeat center;
+}
+
+.a {
+  text-align: center;
+}
