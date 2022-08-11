@@ -5,7 +5,7 @@
   --text: #533738;
   --text-light: #fff;
   --link-btn: #cc8b86;
-  --placeholder: #F6EDE9;
+  --placeholder: #f6ede9;
 }
 
 html {
@@ -413,4 +413,34 @@ html {
   line-height: 24px;
   color: var(--text);
   background-color: var(--link-btn);
+}
+
+/* footer */
+.footer {
+  padding: 33px 0;
+}
+
+.footer__wrap {
+  align-items: center;
+}
+
+.footer__phone {
+  margin-right: 42px;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--text);
+}
+
+.address {
+  margin-right: auto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--text);
+}
+
+.owner {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--text);
 }
